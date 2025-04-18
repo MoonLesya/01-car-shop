@@ -71,15 +71,24 @@ Adress
 <div>
     <label for="used">Used</label>
     <input type="checkbox" id="used">
+    <div>
+        <label for="address">Address:</label>
+        <textarea id="address" name="story" rows="5" cols="33">
+        </textarea>
+    </div>
+    <div>
+        <label for="red">Red</label>
+       <input type="radio" id="red" name="color" />
   </div>
-  <label for="red">Red</label>
-                    <input type="radio" id="red" name="color">
-                  </div>
                   <div>
                     <label for="black">Black</label>
                     <input type="radio" id="black"name="color">
                   </div>
                   <div>
+                    <div>
+                        <label for="blue">Blue</label>
+                        <input type="radio" id="blue"name="color">
+                      </div>
                     <label for="white">White</label>
                     <input type="radio" id="white"name="color">
                   </div>
@@ -88,21 +97,17 @@ Adress
                     <input type="radio" id="grey"name="color">
                   </div>
                   <div>
-                    <input type="range" id="volume" name="volume" min="0" max="11" />
-                    <label for="volume">Price</label>
-                  </div>
-                  
-                  <div>
-                    <input
-                      type="range"
-                      id="Price"
-                      name="price"
-                      min="0"
-                      max="100"
-                      value="90"
-                      step="10" />
                     <label for="price">Price</label>
-                  </div>
+                       <input
+                          type="range"
+                         id="price"
+                         name="price"
+                         min="0"
+                         max="100"
+                        value="90"
+                        step="10"
+                    />
+                 </div>
         </fieldset>
     </form>
 </body>
